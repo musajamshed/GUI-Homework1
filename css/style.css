@@ -1,0 +1,87 @@
+body{
+    background-color: #8B8680;
+    color: #3C280D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/* parameters for container class */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* styling my website header */
+#main-header{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+/* navigation bar */
+#navbar{
+    background-color: black;
+    color: white;  
+    font-family: verdana;
+}
+
+/* removing the underline and bullet points from the list */
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* making the list inline to turn it into a navigation bar*/
+#navbar li{
+    display: inline;
+}
+
+/* making the links appear as a navigation menu */
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+/* navbar text will be aqua when hovering over it */
+#navbar a:hover {
+    color: aqua;
+}
+
+/* styling showcase so it fits and appears properly*/
+#showcase{
+    background-image: url('../images/showcase.jpeg');
+    background-position: center right;
+    min-height: 320px;   
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    color: white;
+    text-align: center;
+}
+
+/* want main area centered */
+#main{
+    text-align: center;
+}
+
+/* centering my table in the body */
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* making the footer look more "official" */
+#main-footer{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}

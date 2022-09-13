@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Musa Jamshed, UMass Lowell Computer Science, Musa_Jamshed@student.uml.edu
+Date written: September 11, 2022
+Description: Web page for Homework 1 that explains my hobbies and interests
+-->
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Musa's Hobbies & Interests</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- website header -->
+    <header id = "main-header">
+        <div class="container">
+            <h1>Musa's Hobbies & Interests</h1>
+        </div>
+    </header>
+
+    <!-- navigation bar -->
+    <nav id = "navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- showcase area-->
+    <div id="showcase">
+        <div class="container">
+
+            <!-- each image below is a link to it's corresponding page on the website-->
+            <a href="family.html">
+                <img src="images/pakistanflag.png" alt="Pakistan Flag" width="200">
+            </a>
+            
+            <a href="basketball.html">
+                <img src="images/NBAlogo.png" alt="NBA logo" width="100" height="200">
+            </a>
+            
+            <a href="traveling.html">
+                <img src="images/traveling.jpeg" alt="Traveling" width="175">
+            </a>
+        
+            <a href="finance.html">
+                <img src="images/financial.png" alt="Personal Finance & Real Estate" width="200">
+            </a>
+        
+            <a href="technology.html">
+                <img src="images/technology.png" alt="Technology & Innovation" width="200">
+            </a>
+        
+            <a href="cars.html">
+                <img src="images/mercedes.jpeg" alt="Car" width="200">
+            </a>
+            
+        </div>
+    </div>
+
+    <!-- main area -->
+    <div class="container">
+        <section id="main">
+
+            <h3>Below is a table of my hobbies and interests. Click on the corresponding pictures above to learn more about each one.</h3>
+
+            <!-- table in the body or "main area" of the home page -->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Hobby/Interest</th>
+                        <th>Reason</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Family Time</td>
+                        <td>My family is a very close-knit one</td>
+                    </tr>
+                    <tr>
+                        <td>Basketball</td>
+                        <td>My favorite sport</td>
+                    </tr>
+                    <tr>
+                        <td>Traveling</td>
+                        <td>I love exploring the world/different cultures</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Finance & Real Estate</td>
+                        <td>Seeking financial independence</td>
+                    </tr>
+                    <tr>
+                        <td>Technology & Innovation</td>
+                        <td>I've always been "tech savvy"</td>
+                    </tr>
+                    <tr>
+                        <td>Cars</td>
+                        <td>Have always loved cars</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </div>
+
+    <!-- separation between body and footer -->
+    <br>
+    
+    <!-- footer -->
+    <footer id="main-footer">
+        <p>Copyright &copy; 2022 Musa Jamshed</p>
+        
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+  </body>
+</html>
